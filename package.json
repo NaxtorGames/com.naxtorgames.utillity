@@ -1,0 +1,8 @@
+{
+  "name": "com.naxtorgames.utillity",
+  "displayName": "Naxtor Games Utillity",
+  "version": "0.1.0",
+  "author": "Naxtor Games",
+  "description": "Contains helper and extensions for various of my packages.",
+  "dependesncies": {}
+}
