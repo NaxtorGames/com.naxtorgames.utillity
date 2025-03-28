@@ -2,6 +2,6 @@
 {
     public static class UtillityData
     {
-        public const string TOOL_MENU_PATH = "Tools/NaxtorGames/Utillity";
+        public const string TOOL_MENU_PATH = "Tools/NaxtorGames/";
     }
 }

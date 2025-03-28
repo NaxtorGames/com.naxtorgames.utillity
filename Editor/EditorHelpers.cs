@@ -27,18 +27,13 @@ namespace NaxtorGames.Utillity.EditorScripts
         {
             SerializedObject serializedPropertyField = GetSerializedObject(serializingObject);
             serializedPropertyField.Update();
-            EditorGUILayout.PropertyField(serializedPropertyField.FindProperty(variableNameAsString), includeChildren);
-            serializedPropertyField.ApplyModifiedProperties();
+            _ = EditorGUILayout.PropertyField(serializedPropertyField.FindProperty(variableNameAsString), includeChildren);
+            _ = serializedPropertyField.ApplyModifiedProperties();
         }
 
         public static void DrawPropertyField(SerializedProperty serializedProperty, bool includeChildren = false)
         {
-            EditorGUILayout.PropertyField(serializedProperty, includeChildren);
+            _ = EditorGUILayout.PropertyField(serializedProperty, includeChildren);
         }
     }
-
-}
-
-namespace UnityEditor.Extensions
-{
 }

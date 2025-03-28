@@ -7,7 +7,7 @@
         /// </summary>
         public static void DrawWindowSize(this EditorWindow editorWindow)
         {
-            EditorGUILayout.Vector2Field("Window Size:", editorWindow.position.size);
+            _ = EditorGUILayout.Vector2Field("Window Size:", editorWindow.position.size);
         }
     }
 }
