@@ -3,7 +3,7 @@ using SerializedObject = UnityEditor.SerializedObject;
 using SerializedProperty = UnityEditor.SerializedProperty;
 using EditorGUILayout = UnityEditor.EditorGUILayout;
 
-namespace NaxtorGames.Utillity.EditorScripts
+namespace NaxtorGames.Utilities.EditorScripts
 {
     public static class EditorHelpers
     {

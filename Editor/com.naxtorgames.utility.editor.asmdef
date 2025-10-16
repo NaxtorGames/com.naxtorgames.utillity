@@ -1,6 +1,6 @@
 {
-    "name": "com.naxtorgames.utillity.editor",
-    "rootNamespace": "NaxtorGames.Utillity.EditorScripts",
+    "name": "com.naxtorgames.utility.editor",
+    "rootNamespace": "NaxtorGames.Utility.EditorScripts",
     "references": [],
     "includePlatforms": [
         "Editor"
